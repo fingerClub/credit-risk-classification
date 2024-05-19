@@ -1,6 +1,3 @@
-# credit-risk-classification
-
-help with programming from tutoring services.
 
 # Module 10 Report 
 
