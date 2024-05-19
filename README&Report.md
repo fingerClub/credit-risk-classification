@@ -2,9 +2,9 @@
 
 help with programming from tutoring services.
 
-Module 10 Report 
+# Module 10 Report 
 
-Overview of the Analysis
+## Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
@@ -15,6 +15,8 @@ All in the CSV were marked as features while loan status was marked as a label. 
 Describe the stages of the machine learning process you went through as part of this analysis.
 Briefly touch on any methods you used (e.g., LogisticRegression, or any other algorithms).
 Results
+
+## accuracy scores and the precision and recall scores
 
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
