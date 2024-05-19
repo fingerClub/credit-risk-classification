@@ -27,4 +27,5 @@ Results
   2. Class 1 is .94, meaning it occasionally will not identify an at-risk borrower as being an at-risk borrower.
 
 
+## Conclusion
 In determining those who will have a healthy loan, the model is almost spot-on, as indicated by its f-1 score of 1. Because this class is so effective, relying on the model to predict class zero values will almost always predict healthy loan borrowers. Healthy loan borrowers are those who are credit-worthy and are best customers to offer services to. Overall, there are far less borrowers at risk of defaulting on their loan. such a small sample size likely explains why the model is less accurate in predicting those who are at risk. If it's financially best to only offer services to low-risk borrowers, then it is recommended that the model is used to identify those with healthy loans (class 0) to minimize risk to the company due to its f-1 score, recall, and precision for those with healthy loans. With an accuracy of .99, this is a great base model for predicting borrower creditworthiness.
