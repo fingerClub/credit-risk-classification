@@ -17,15 +17,14 @@ Briefly touch on any methods you used (e.g., LogisticRegression, or any other al
 Results
 
 ## accuracy scores and the precision and recall scores
+* Accuracy
+  Accuracy for the model is .99 which indicatees that 99% of total predictions are correct. F-1 score for class 0 is a 1 meaning it has an excellent balance of precesion and recall. the F-1 score for class 1 is .89 which indicates it is weaker in precision and recall for predicting those at risk for loans.
+* Precision
+  1. Class 0 has pristine precision (1), meaning there are no false positives in determining a healthy loan, all selected as a healthy loan are healthy loans
+  2. Class 1 has a precision of .84 meaning it occasionally will classify a borrower with a healthy loan as one at high risk. 
+* Recall
+  1. Class 0 is near pristine (.99), meaning there are little to no false negatives in determining a healthy loan, meaning almost all who are identified as high risk are likely to be high risk.
+  2. Class 1 is .94, meaning it occasionally will not identify an at-risk borrower as being an at-risk borrower.
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
-Machine Learning Model 1:
-Description of Model 1 Accuracy, Precision, and Recall scores.
-Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-Which one seems to perform best? How do you know it performs best?
-Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the 1's, or predict the 0's? )
-If you do not recommend any of the models, please justify your reasoning.
+In determining those who will have a healthy loan, the model is almost spot-on, as indicated by its f-1 score of 1. Because this class is so effective, relying on the model to predict class zero values will almost always predict healthy loan borrowers. Healthy loan borrowers are those who are credit-worthy and are best customers to offer services to. Overall, there are far less borrowers at risk of defaulting on their loan. such a small sample size likely explains why the model is less accurate in predicting those who are at risk. If it's financially best to only offer services to low-risk borrowers, then it is recommended that the model is used to identify those with healthy loans (class 0) to minimize risk to the company due to its f-1 score, recall, and precision for those with healthy loans. With an accuracy of .99, this is a great base model for predicting borrower creditworthiness.
